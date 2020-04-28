@@ -93,55 +93,55 @@ void draw() {
     fill(c[i]);
     scale(1.5);
     switch(i) {
-    case 0: // Nivel
-      beginShape();
-      vertex(-50, -25);
-      vertex(0, 25);
-      vertex(25, 0 );
-      vertex(50, 25 );
-      vertex(100, -25 );
-      vertex(25, -100 );
-      endShape();
-      break;  
-    case 1:
-    case 2: // Triangulos grandes
-      beginShape(TRIANGLES);
-      vertex(-50, -25);
-      vertex(0, 25);
-      vertex(50, -25);
-      endShape();
-      break;
-    case 3:
-    case 4: // Triangulos pequeños
-      beginShape(TRIANGLES);
-      vertex(-25, -12.5);
-      vertex(0, 12.5);
-      vertex(25, -12.5);
-      endShape();
-      break;
-    case 5: // Triangulo mediano
-      beginShape(TRIANGLES);
-      vertex(-35.36, -17.68);
-      vertex(0, 17.68);
-      vertex(35.36, -17.68);
-      endShape();
-      break;
-    case 6: // cuadrado
-      beginShape();
-      vertex(0, 25);
-      vertex(25, 0);
-      vertex(0, -25);
-      vertex(-25, 0);      
-      endShape();
-      break;
-    case 7: // rombo
-      beginShape();
-      vertex(v1, v2);
-      vertex(v3, v4);
-      vertex(v5, v6);
-      vertex(v7, v8);      
-      endShape();
-      break;
+      case 0: // Nivel
+        beginShape();
+        vertex(-50, -25);
+        vertex(0, 25);
+        vertex(25, 0 );
+        vertex(50, 25 );
+        vertex(100, -25 );
+        vertex(25, -100 );
+        endShape();
+        break;  
+      case 1:
+      case 2: // Triangulos grandes
+        beginShape(TRIANGLES);
+        vertex(-50, -25);
+        vertex(0, 25);
+        vertex(50, -25);
+        endShape();
+        break;
+      case 3:
+      case 4: // Triangulos pequeños
+        beginShape(TRIANGLES);
+        vertex(-25, -12.5);
+        vertex(0, 12.5);
+        vertex(25, -12.5);
+        endShape();
+        break;
+      case 5: // Triangulo mediano
+        beginShape(TRIANGLES);
+        vertex(-35.36, -17.68);
+        vertex(0, 17.68);
+        vertex(35.36, -17.68);
+        endShape();
+        break;
+      case 6: // cuadrado
+        beginShape();
+        vertex(0, 25);
+        vertex(25, 0);
+        vertex(0, -25);
+        vertex(-25, 0);      
+        endShape();
+        break;
+      case 7: // rombo
+        beginShape();
+        vertex(v1, v2);
+        vertex(v3, v4);
+        vertex(v5, v6);
+        vertex(v7, v8);      
+        endShape();
+        break;
     }    
     popMatrix();
   }
