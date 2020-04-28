@@ -35,4 +35,4 @@ flecha izquierda: desplaza figura seleccionada a la derecha
 
 flecha abajo: desplaza figura seleeccionada abajo 
 
-boton enter: deselecciona figura 
+tecla enter: deselecciona figura 
